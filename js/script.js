@@ -81,5 +81,5 @@
 // console.log(calculateTotalPrice(3,400));
 // console.log(calculateTotalPrice(1,3500));
 // console.log(calculateTotalPrice(12,70));
-// -------------------------------------------12
+// -------------------------------------------12(Свойства контейнера)
 
