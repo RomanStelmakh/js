@@ -80,6 +80,73 @@
 // console.log(calculateTotalPrice(8,60));
 // console.log(calculateTotalPrice(3,400));
 // console.log(calculateTotalPrice(1,3500));
-// console.log(calculateTotalPrice(12,70));
+// console.log(ca lculateTotalPrice(12,70));
 // -------------------------------------------12(Свойства контейнера)
+// 15.11.2024
+// function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee){
+// const totalPrice = orderedQuantity * pricePerDroid + deliveryFee;
+// return `You ordered droids worth ${totalPrice} credits. Delivery (${deliveryFee} credits) is included in total price.`;
+// }
+// console.log(makeOrderMessage(2, 100, 50));
+// console.log(makeOrderMessage(4, 300, 100));
+// console.log(makeOrderMessage(10, 70, 200));
+// --------------------------------------------13
+// function isAdult(age){
+//     const passed = age >=18;
+//     return passed
+// }
+// console.log(isAdult(20));
+// console.log(isAdult(14));
+// console.log(isAdult(8));
+// console.log(isAdult(37));
+// ---------------------------------14
+// function isValidPassword(password){
+//     const SAVED_PASSWORD = "jqueryismyjam";
+//     const isMatch = password === SAVED_PASSWORD;
+//     return isMatch;
+// }
+// console.log(isValidPassword("mangodab3st"));
+// console.log(isValidPassword("jqueryismyjam"));
+// console.log(isValidPassword("kiwirul3z"));
+// --------------------------------------------15
+// function checkAge(age){
+//   let message; 
+// if(age >= 18){
+//     message = 'You are an adult';
+// } else{
+//   message = 'You are a minor'
+// }
+// return message;
+// }
+// console.log(checkAge(2));
+// -----------------------------------16
+// function checkStorage(available, ordered){
+//    let message;
+//     if(ordered >= available){
+//         message = 'Not enough goods in stock!';
+//     } else{
+//         message = 'Order is processed, our manager will contact you.';
+//     }
+//     return message;
+// }
+// console.log(checkStorage(100,50));
+// --------------------------------------17
+// let a = 7;
+// a += 7;
+// console.log(age);
+
+// let b = 6;
+// b -= 6;
+// console.log(b);
+
+// let c = 45;
+// c *= 45;
+// console.log(c);
+
+// let d = 2;
+// d /= 2;
+// console.log(d);
+// -----------------------------18
+
+
 
