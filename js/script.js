@@ -1,3 +1,5 @@
+
+
 // -------------------------------------1
 // const productName = 'Droid';
 // console.log(productName);
@@ -12,7 +14,7 @@
 // let productName = 'Droid';
 // productName ='Repair droid';
 // console.log(productName);
-// ----------------------------------------3
+// ----------------------------------------3 typeof
 // let topSpeed = 160;
 // console.log(typeof topSpeed);
 
@@ -44,7 +46,7 @@
 // const totalPrice = (pricePerDroid*orderedQuantity)+deliveryFee;
 // const message = `You ordered droids worth ${totalPrice} credits. Delivery (${deliveryFee} credits) is included in total price.`;
 // console.log(message)
-// --------------------------------------7
+// --------------------------------------7 function
 // function sayHi(){
 //     console.log("Hello, this is my first function!");
 // }
@@ -56,7 +58,7 @@
 // add(15, 27, 10);
 // add(10,20,30);
 // add(5,10,15);
-// ---------------------------9
+// ---------------------------9 return
 // function add(a,b,c){
 //     return a + b + c;
 // }
@@ -146,7 +148,70 @@
 // let d = 2;
 // d /= 2;
 // console.log(d);
-// -----------------------------18
-
-
-
+// ---------------------18
+// function makeTransaction(pricePerDroid, orderedQuantity, customerCredits){
+//     let totalPrice = pricePerDroid * orderedQuantity;
+//     let message;
+//     if(totalPrice > customerCredits){
+//         message = "Insufficient funds!";
+//     } else{
+//         let numer = customerCredits - totalPrice;
+//         message = `You ordered ${orderedQuantity} droids, you have ${numer} credits left`;
+//     }
+//     return message;
+// }
+// console.log(makeTransaction(500, 10, 5000))
+// -------------------------------------------- 19
+// function checkPassword(password){
+//     const ADMIN_PASSWORD = "jqueryismyjam";
+//     let message;
+//     if(password === null){
+//         message = "Canceled by user!";
+//     } else if(password === ADMIN_PASSWORD){
+//         message = "Welcome!";
+//     } else{
+//         message = "Access denied, wrong password!";
+//     }
+//     return message;
+// }
+// console.log(checkPassword("mangohackzor"));
+// console.log(checkPassword(null));
+// console.log(checkPassword("polyhax"));
+// console.log(checkPassword("jqueryismyjam"));
+// -----------------------------------------------20
+// function checkStorage(available, ordered){
+//     let message;
+//     if(ordered === 0){
+//         message = "There are no products in the order!";
+//     } else if(ordered > available){
+//         message = "Your order is too large, there are not enough items in stock!";
+//     } else{
+//         message = "The order is accepted, our manager will contact you";
+//     }
+//     return message;
+// }
+// console.log(checkStorage(100, 50));
+// console.log(checkStorage(100, 130));
+// console.log(checkStorage(70, 0));
+// console.log(checkStorage(200, 20));
+// console.log(checkStorage(200, 250));
+// console.log(checkStorage(150, 0));
+// ---------------------------------------21
+// function isNumberInRange(start, end, number){
+//    let isInRange = number >= start && number <= end;
+//    return isInRange
+// }
+// console.log(isNumberInRange(10, 30, 17));
+// console.log(isNumberInRange(10, 30, 5));
+// console.log(isNumberInRange(20, 50, 24));
+// console.log(isNumberInRange(20, 50, 76));
+// ------------------------------------------22
+// function checkIfCanAccessContent(subType){
+//     let canAccessContent = (subType === "pro" || subType === "vip") ;
+//     return canAccessContent
+// }
+// console.log(checkIfCanAccessContent("pro"));
+// console.log(checkIfCanAccessContent("starter"));
+// console.log(checkIfCanAccessContent("vip"));
+// console.log(checkIfCanAccessContent("free"));
+// -----------------------------------------------23
