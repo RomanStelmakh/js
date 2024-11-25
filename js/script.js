@@ -215,3 +215,60 @@
 // console.log(checkIfCanAccessContent("vip"));
 // console.log(checkIfCanAccessContent("free"));
 // -----------------------------------------------23
+
+// function isNumberNotInRange(start,end,number){
+//     const isInRange  = number>=start && number<=end;
+//     const isNotInRange = !isInRange;
+//     return isNotInRange
+// }
+// console.log(isNumberNotInRange(10,30,17));
+// console.log(isNumberNotInRange(10,30,5));
+// console.log(isNumberNotInRange(20,50,24));
+// console.log(isNumberNotInRange(20,50,76));
+// ----------------------------------------------24
+// function getDiscount(totalSpent){
+//     const GOLD_DISCOUNT = 0.1;
+//     const SILVER_DISCOUNT = 0.05;
+//     const BRONZE_DISCOUNT = 0.02;
+//     const BASE_DISCOUNT = 0;
+//     let discount;
+//     if(totalSpent >=50000){
+//       discount = 0.1;
+//     }else if(totalSpent>=20000 && totalSpent<50000){
+//        discount = 0.05;
+//     }else if(totalSpent >= 5000 && totalSpent < 20000){
+//          discount = 0.02;
+//     }else if(totalSpent<=5000){
+//  discount = 0;
+//     }
+//     return discount
+// }
+// console.log(getDiscount(137000));
+// console.log(getDiscount(46900));
+// console.log(getDiscount(8250));
+// console.log(getDiscount(1300));
+// console.log(getDiscount(5000));
+// console.log(getDiscount(20000));
+// console.log(getDiscount(50000));
+// ---------------------------------------------25
+// function checkStorage(available, ordered){
+//     let message;
+//     message = available > ordered ? 'The order is accepted, our manager will contact you' : 'Not enough goods in stock!';
+//     return message;
+// }
+// console.log(checkStorage(100, 50));
+// console.log(checkStorage(100, 130));
+// console.log(checkStorage(200, 20));
+// console.log(checkStorage(200, 150));
+// console.log(checkStorage(150, 180));
+// --------------------------------------------------26
+// function checkPassword(password){
+//     let message;
+//     const ADMIN_PASSWORD = "jqueryismyjam";
+//     message = password === ADMIN_PASSWORD ? 'Access is allowed': 'Access denied, wrong password!';
+//     return message;
+// }
+// console.log(checkPassword("jqueryismyjam"));
+// console.log(checkPassword("angul4r1sl1f3"));
+// console.log(checkPassword("r3actsux"));
+// -------------------------------------------------27
